@@ -44,5 +44,7 @@ public class Clavier {
 		System.out.println(question);
 		return scan.next();
 	}
+	
+	
 
 }

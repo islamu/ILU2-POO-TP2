@@ -62,5 +62,6 @@ public class Scenario {
 				boundaryAfficherMarche, boundaryAcheterProduit);
 		boundaryLeVillage.menu();
 	}
+	
 
 }

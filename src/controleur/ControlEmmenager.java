@@ -27,4 +27,5 @@ public class ControlEmmenager {
 		village.ajouterHabitant(gaulois);
 	}
 
+	
 }

@@ -127,8 +127,8 @@ public class TestControleursDesCas {
 		for (String string : ventesObelix) {
 			System.out.println(string);
 		}
-		//String[] ventesIntrus = controlLibererEtal.libererEtal("Intrus");
-		//System.out.println("Les ventes d'Intrus : " + ventesIntrus);
+		String[] ventesIntrus = controlLibererEtal.libererEtal("Intrus");
+		System.out.println("Les ventes d'Intrus : " + ventesIntrus);
 		
 
 //		Sortie Console :
