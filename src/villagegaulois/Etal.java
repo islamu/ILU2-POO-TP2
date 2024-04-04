@@ -81,5 +81,18 @@ public class Etal {
 		}
 		return donneesVente;
 	}
+	//add
+    public int vendreProduit(int quantiteAcheter) {
+        int quantiteVendue = 0;
+        if (quantite > 0 && quantiteAcheter > 0) { // S'il y a du produit disponible et une demande d'achat valide
+            if (quantite >= quantiteAcheter) { // Si la quantité demandée est disponible
+                quantiteVendue = quantiteAcheter; // Vendre la quantité demandée
+            } else { // Si la quantité demandée est supérieure à la quantité disponible
+                quantiteVendue = quantite; // Vendre toute la quantité disponible
+            }
+            quantite -= quantiteVendue; // Mettre à jour la quantité restante
+        }
+        return quantiteVendue;
+    }
 
 }
